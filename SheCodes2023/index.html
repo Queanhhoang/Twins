@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Homepage</title>
+    <script src="index.js"></script>
+    <script src="friends.js"></script>
+    <script src="team.js"></script>
+    <script src="contact.js"></script>
+    <script src="home.js"></script>
+
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body>
+    <nav class="nav-bar">
+      <span>Buddyfinder</span>
+        <ul class="navbar-list">
+          <li class="navbar-item">
+            <a href="#" onclick="onNavigate('/home'); return false;"
+              >Home</a
+            >
+          </li>
+          <li class="navbar-item">
+            <a href="#" onclick="onNavigate('/friends'); return false;"
+              >Addfriend</a
+            >
+          </li>
+          <li class="navbar-item">
+            <a href="#" onclick="onNavigate('/team'); return false;">Group</a>
+          </li>
+          <li class="navbar-item">
+            <a href="#" onclick="onNavigate('/contact'); return false;"
+              >Projects</a
+            >
+          </li>
+          <li class="navbar-item">
+            <a href="#" onclick="onNavigate('/goal'); return false;">Goal</a>
+          </li>
+          <!-- <li class="navbar-item">
+            <a href="#" onclick="onNavigate('/community'); return false;"
+              >Community</a
+            >
+          </li> -->
+        </ul>
+      </div>
+    </nav>
+    <div id="root"></div>
+    <script src="app.js"></script>
+  </body>
+</html>
